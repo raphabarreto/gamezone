@@ -3,7 +3,8 @@
 </h1>
 
 <h3 align="center">
-  My Todos
+<img alt="GoStack" src="https://raw.githubusercontent.com/iamshaunjp/react-native-tutorial/lesson-28/gamezone/assets/heart_logo.png" height="30px">
+  GameZone
 </h3>
 
 <p align="center">Nesse projeto foi desenvolvido uma aplicativo resenhas para jogos, demonstrando conceitos básicos de como programar atráves do React Native com ajuda do Expo.</p>
@@ -15,8 +16,8 @@
 
 ## ✋🏻 Pré-requisitos
 
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/pt-BR/docs/install)
+- ⚡ [Node.js](https://nodejs.org/en/)
+- ⚡ [Yarn](https://yarnpkg.com/pt-BR/docs/install)
 
 ## 🔥 Instalação e execução
 
