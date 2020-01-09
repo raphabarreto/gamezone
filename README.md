@@ -22,9 +22,11 @@
 
 1. Faça um clone desse repositório;
 2. Entre na pasta `cd gamezone`;
-3. Rode `npm` para instalar as dependências;
-4. Execute `expo start` no seu terminal para inicializar o projeto;
+3. Rode `npm install -g expo-cli` para instalar o [Expo](https://expo.io/);
+4. Rode `npm install` para instalar as dependências;
+5. Execute `expo start` no seu terminal para inicializar o projeto;
 
 ---
 
-Feito com 💖 by [Raphael Barreto](https://raphabarreto.com.br/) 👋
+Feito com 💖 by [Raphael Barreto](https://raphabarreto.com.br/)
+graças ao [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)👋
