@@ -39,7 +39,11 @@ export default function ReviewForm({ addReview }) {
               placeholder="Review Title"
               onChangeText={props.handleChange("title")}
               value={props.values.title}
+              onBlur={props.handleBlur("title")}
             />
+            <Text style={globalStyles.errorText}>
+              {props.touched.title && props.errors.title}
+            </Text>
 
             <TextInput
               multiline
@@ -47,7 +51,11 @@ export default function ReviewForm({ addReview }) {
               placeholder="Review body"
               onChangeText={props.handleChange("body")}
               value={props.values.body}
+              onBlur={props.handleBlur("body")}
             />
+            <Text style={globalStyles.errorText}>
+              {props.touched.body && props.errors.body}
+            </Text>
 
             <TextInput
               style={globalStyles.input}
@@ -55,7 +63,11 @@ export default function ReviewForm({ addReview }) {
               onChangeText={props.handleChange("rating")}
               value={props.values.rating}
               keyboardType="numeric"
+              onBlur={props.handleBlur("rating")}
             />
+            <Text style={globalStyles.errorText}>
+              {props.touched.rating && props.errors.rating}
+            </Text>
 
             <Button
               title="submit"
