@@ -9,7 +9,7 @@ const screens = {
     screen: Home,
     navigationOptions: ({ navigation }) => {
       return {
-        headerTitle: () => <Header title="GameZone" navigation={navigation} />
+        header: () => <Header title="GameZone" navigation={navigation} />
       };
     }
   },
@@ -25,7 +25,8 @@ const screens = {
 const HomeStack = createStackNavigator(screens, {
   defaultNavigationOptions: {
     headerTintColor: "#444",
-    headerStyle: { backgroundColor: "#eee", height: 60 }
+    headerStyle: { backgroundColor: "white", height: 80 },
+    headerTitleStyle: { fontWeight: "bold" }
   }
 });
 
